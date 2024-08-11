@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="38" height="38" viewBox="0 0 38 38">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#900095"/>
+      <stop offset="1" stop-color="#d90026"/>
+    </linearGradient>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_552" data-name="Rectangle 552" width="38" height="38" transform="translate(1005 8168)" stroke="#707070" stroke-width="1" fill="url(#linear-gradient)"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_70" data-name="Mask Group 70" transform="translate(-1005 -8168)" clip-path="url(#clip-path)">
+    <path id="Icon_material-email" data-name="Icon material-email" d="M32.483,6H6.276a3.272,3.272,0,0,0-3.26,3.276L3,28.931a3.286,3.286,0,0,0,3.276,3.276H32.483a3.286,3.286,0,0,0,3.276-3.276V9.276A3.286,3.286,0,0,0,32.483,6Zm0,6.552-13.1,8.19-13.1-8.19V9.276l13.1,8.19,13.1-8.19Z" transform="translate(1005.167 8168.333)" fill="url(#linear-gradient)"/>
+  </g>
+</svg>

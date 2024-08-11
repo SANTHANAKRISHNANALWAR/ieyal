@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+@font-face {
+    font-family: Muli;
+    src: url(./assets/fonts/Muli.ttf);
+}
+
+/* default code starts here */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-wrap: pretty;
+}
+
+body {
+    font-family: Muli;
+    font-style: normal;
+    line-height: 1.6;
+    color: #353535;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+:root {
+    --primaryColor: #353535;
+    --secondaryColor: #757575;
+    --frweight: 400;
+    --flweight: 300;
+    --darkColor: #330300;
+    --lightColor: #ff0f00;
+    --ffPrimary: "Roboto", --frweight;
+    --ffSecondary: "Roboto";
+    --ffaddtional: "poppins"
+}
+
+
+
+header,
+main,
+footer {
+    width: 100%;
+    line-height: 2;
+    background-color: aqua;
+}
+
+input,
+textarea,
+button {
+    font-family: inherit
+}
+
+a {
+    text-decoration: none;
+    color: #353535;
+}
+
+li {
+    list-style-type: none;
+}
+
+h3 {
+    font-size: 1.6rem;
+    font-family: "Montserrat", sans-serif;
+    color: #353535;
+}
+
+p {
+    font-size: 1.4rem;
+}
+
+/* .widthcss{
+    min-width: 25rem;
+    max-width: 25rem;
+} */
+
+.align {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 8.5rem;
+}
+
+.cspacing {
+    padding: 4rem 0;
+}
+
+.grid4 {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+}
+
+.grid44 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.dflexcol {
+    display: flex;
+    flex-direction: column;
+}
+
+.dflex {
+    display: flex;
+    justify-content: left;
+    /* justify-content: flex-start;
+    align-items: center;
+    text-align: center; */
+}
+
+/* default code ends here */
+
+/* aboutContainer style starts here */
+
+.aboutContainer {
+    background-color: #efefef;
+}
+
+/* .about{
+    background-color: #ff0f00;
+} */
+
+/* .aboutBody{
+    background-color: #0000ff;
+} */
+
+.aboutCol1 {
+    /* background-color: #deb887; */
+    padding: 1rem;
+    gap: 2rem;
+    min-width: 30rem;
+}
+
+.aboutCol1text {
+    /* background-color: #ff0f00; */
+    gap: 2rem;
+}
+
+.aboutCol1text p {
+    /* background-color:darkolivegreen; */
+    width: 80%;
+    text-align: justify;
+    font-family: var(--ffaddtional);
+    font-size: 1.4rem;
+}
+
+.aboutCol1images {
+    /* background-color: blueviolet; */
+    position: relative;
+    right: 3rem;
+    /* margin-right: 10rem; */
+}
+
+/* .aboutCol1image1{
+    background-color: rgb(224, 166, 166);
+} */
+
+.aboutCol1image1 img {
+    /* background-color: chartreuse; */
+    /* aspect-ratio: 1/1; */
+    height: 5rem;
+}
+
+/* .aboutCol1image2{
+    background-color:#353535;
+} */
+
+.aboutCol1image2 img {
+    /* background-color: #efefef; */
+    height: 13rem;
+    /* width: 100%; */
+}
+
+/* .aboutCol1image3{
+    background-color: chocolate;
+} */
+
+.aboutCol1image3 img {
+    /* background-color: cadetblue; */
+    height: 14.5rem;
+    cursor: pointer;
+    /* width: 100%; */
+}
+
+.aboutCol2 {
+    /* background-color:gold; */
+    padding: 1rem;
+    gap: 1.5rem;
+    line-height: 2;
+    min-width: 16rem;
+    /* justify-content: space-between; */
+}
+
+.aboutCol2 h3 {
+    /* background-color: #4da52a; */
+    margin-top: 2rem;
+    /* padding-top: 2rem; */
+    /* cursor: pointer; */
+    /* justify-content: flex-end; */
+}
+
+/* .aboutCol2Links {
+    background-color: #00ffff;
+    width:max-content;
+} */
+
+.aboutCol2Links li {
+    font-size: 1.5rem;
+    /* cursor: pointer; */
+    /* object-fit: contain; */
+}
+
+/* .aboutCol3{
+    background-color: #00ffff;
+    padding: 1.5rem;
+    color: #353535;
+}
+
+.aboutCol3 h3{
+    background-color: #4da52a;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+.aboutCol3Links {
+    background-color: #ff0f00;
+    padding: 0 2rem;
+}
+
+.aboutCol3Links li{
+    font-size: 1.5rem;
+
+} */
+
+.aboutCol4 {
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.aboutCol4Social {
+    /* background-color: #ff0f00; */
+    margin-top: 2rem;
+    gap: 1.5rem;
+    /* line-height: 2; */
+}
+
+/* .aboutCol4Social h3 {
+    background-color: #ff0f00;
+} */
+
+.aboutCol4Socialimgs {
+    gap: 2rem;
+    max-width: 24rem;
+}
+
+.aboutCol4Socialimgs img {
+    height: 3rem;
+    cursor: pointer;
+}
+
+.aboutCol4Contact {
+    /* background-color: #00ffff; */
+    /* line-height: 2; */
+    gap: 1rem;
+}
+
+.aboutCol4Contactbox {
+    gap: 1rem;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.aboutCol4Contactbox p {
+    cursor: pointer;
+}
+
+.aboutCol4Contactbox img {
+    height: 3rem;
+}
+
+/* aboutContainer style endss here */
+
+/* media queries begins here */
+
+@media (width <=576px) {
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4 {
+        grid-template-columns: 1fr;
+    }
+
+    .align {
+        padding: 1.5rem;
+    }
+
+    .aboutCol1images {
+        justify-content: center;
+    }
+
+    /* .aboutCol4{
+        max-width: 24rem;
+    } */
+
+
+}
+
+@media (width >=576.2px) and (width <=768px) {
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .align {
+        padding: 1.5rem;
+    }
+
+    /* .aboutCol1 {
+        min-width: 30rem;
+    } */
+
+    .aboutCol1images {
+        justify-content: center;
+    }
+
+}
+
+@media (width >=768.2px) and (width <=992px) {
+
+    .grid1,
+    .grid2,
+    .grid3,
+    .grid4 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+}
+
+/* media queries ends here */
